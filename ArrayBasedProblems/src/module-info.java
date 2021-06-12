@@ -1,0 +1,2 @@
+module ArrayBasedSamples {
+}

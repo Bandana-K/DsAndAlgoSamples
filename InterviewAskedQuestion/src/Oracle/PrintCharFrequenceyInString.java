@@ -1,4 +1,4 @@
-package Orcale;
+package Oracle;
 
 //https://www.geeksforgeeks.org/printing-frequency-of-each-character-just-after-its-consecutive-occurrences/
 public class PrintCharFrequenceyInString {

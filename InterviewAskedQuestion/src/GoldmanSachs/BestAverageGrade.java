@@ -1,4 +1,4 @@
-package GoldManSachs;
+package GoldmanSachs;
 
 /* Problem Name is &&& Best Average Grade &&& PLEASE DO NOT REMOVE THIS LINE. */
 

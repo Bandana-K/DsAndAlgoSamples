@@ -1,0 +1,44 @@
+Round 1:
+
+Loadbalancing types -> stickyBased, round robin, weighed
+What is the error handling logic -> number of retires, exponential retries
+MQ vs Kafka (Persistence in MQ? what if the server where MQ was running, goes down? Will the messages be lost)
+CAP theorem
+OutOfMemory issues, causes and possible fixes ->  in permGen, or can be in heap -> make sure not to have unused string objects a lot, don't hold huge static objects
+ThreadPools -> ideal number of threads for a machine having 2 processors -> https://engineering.zalando.com/posts/2019/04/how-to-set-an-ideal-thread-pool-size.html
+AtomicInteger vs volatile vs normal counters -> how does atomicInteger work internally
+Various methods of Object class
+Equals and Hashcode contract
+Static methods
+
+
+
+Round 2:
+ways of dividing a monolith project into microservices -> 1. feature based services 2. controller/processor/persistence based
+pros and Cons of both of these approaches
+What is Spring Container? Can we call it in our application
+What is the life cycle of a spring Bean.
+What are the various annotations used in Spring?
+What is the default scope of the bean created by the @Controller
+Can we write @Service on a class meant to work as repository ?
+
+
+System Design :
+
+Design a Product Catalog and Order Management System.
+We have a database which stores product inventory with the following attributes -
+Product Id, Product Name, Product Price and Quantity
+Our frontend team wants to build an UI to display the products in a webpage and enable users to order them online and needs the following -
+    •   A backend system to get the products
+    •   A backed system to create orders and fulfill them.
+ 
+The order management system has the following characteristics and requirements -
+    •   Should create an order within 2 seconds of receiving it as the client request will timeout.
+    •   Stores the order in the database
+    •   Call a third-party payment gateway API to process payment which takes minimum of 5 seconds to complete the request.
+    •   Send email notification when the order is created and when it is complete.
+ 
+Please discuss and design the following -
+    •   Architecture of the whole system and different types of services/subsystems to build the system.
+    •   Mode of communication between different services/sub-systems.
+    •   Design the various API’s as applicable needed to build the application.

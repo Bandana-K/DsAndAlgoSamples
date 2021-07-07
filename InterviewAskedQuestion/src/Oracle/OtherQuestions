@@ -1,0 +1,16 @@
+1. Develop a service that takes a list of product information in a CSV and generates a catalog.
+2. Flatten a JSON object consisting of potentially multiple levels of nested objects, using a field renaming map.  
+       { "accounting" : [   
+	                     { "firstName" : "John",  
+	                       "lastName"  : "Doe",
+	                       "age"       : 23 },
+
+	                     { "firstName" : "Mary",  
+	                       "lastName"  : "Smith",
+	                        "age"      : 32 }
+        ]}
+        
+Round 2 : 
+1. LRU cache design
+2. What changes will we make to use it in multithreaded env
+3. Design a payment gateway

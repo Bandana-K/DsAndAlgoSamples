@@ -12,10 +12,10 @@ public class PrintCharFrequenceyInString {
 		StringBuilder result = new StringBuilder();
 		
 		
-		if(input == null) {
-			System.out.println(result);
-			return;
-		}		
+//		if(input == null) {
+//			System.out.println(result);
+//			return;
+//		}		
 		
 		
 		for(int i = 0 ; i< input.length(); ) {

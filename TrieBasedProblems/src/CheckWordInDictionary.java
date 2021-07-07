@@ -130,5 +130,3 @@ public static void main(String []args)
                                "Yes\n" : "No\n");
 }
 }
-
-// This code is contributed by Ganeshchowdharysadanala

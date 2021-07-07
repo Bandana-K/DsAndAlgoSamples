@@ -1,0 +1,13 @@
+Hacker rank coding round:
+1. https://www.geeksforgeeks.org/given-a-sequence-of-words-print-all-anagrams-together/
+2. https://www.geeksforgeeks.org/print-all-subarrays-with-0-sum/
+
+———————————————————————————————————————————————————————————————————————————————————————————————————————————
+
+Round 1
+Spring vs SpringBoot
+which server in springboot? what are servlets
+How to store catalog information in DB, if they may be heriarchial or may not be
+If 100 customers are going to apply for 1 lac rs loan, hot to design the system, to allow concurrency and conistency
+Kafka topic - consumer group configuration to reduce the lags on topics
+design the code to print 1,A,#,2,B,$,3,C,%…. using 3 threads where first thread prints 1,2,3,4… second one prints A,B,C,D… and 3rd one prints special characters.s

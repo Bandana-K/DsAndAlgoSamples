@@ -1,0 +1,16 @@
+Round 1
+
+Question 1
+Given a linked list, reverse the nodes of a linked list k at a time and return its modified list.
+
+Question 2 :
+
+Given an array of strings words (without duplicates), return all the concatenated words in the given list of wo
+A concatenated word is defined as a string that is comprised entirely of at least two shorter words in the given array.
+Words = [ab, cd , ef, abcd, abcdef, abef, efabcd]   , Ans  = {abcd, abcdef, abef, efabcd}
+
+———————————————————————————————————————————————————————————————————————————————————————————————————————————
+
+Round 2 
+In depth design of your own project
+Google drive design and architecture

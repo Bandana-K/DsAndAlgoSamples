@@ -1,0 +1,6 @@
+Round 1
+
+1. Given a string of brackets, Print if the brackets are balanced
+2. Basic Library Management System Where I can borrow books, See a list of Most popular books in the last 3 months.]
+3. Code Review for a given segment of code - Rest Api based code written with get/post method
+4. Given A Movie Service which uses oAuth token to authenticate and can handle TPS of 20 / sec.  The Authentication Service, which is part of movie service  has a TPS of 5/sec, You need to setup an API which calls movie service with a TPS of 10/sec

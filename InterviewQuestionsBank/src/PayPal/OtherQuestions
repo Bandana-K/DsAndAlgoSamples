@@ -1,0 +1,2 @@
+1. 	Design a gaming interface, where computer has to guess a number out of your given range. 
+	For every guess, we can say, its lesser than, greater than or equal to. If equal to, game will terminate.

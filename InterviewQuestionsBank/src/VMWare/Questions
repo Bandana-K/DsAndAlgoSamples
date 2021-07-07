@@ -1,0 +1,14 @@
+Round 1 : HackerRank
+Q1. https://medium.com/algorithm-and-datastructure/last-stone-weight-dbc948aab8a
+
+Q2. Given an array of size n, and an int value k, find the number of subarrays of size k in the array which are strictly increasing
+exp 1 : array = [5, 2, 4, 5, 7] k = 3, ans is 2, cause 1 subarray [2,4,5] and other [4, 5, 7]
+exp 2: array  = [2, 4, 3, 6, 2] k = 4 ans is 0
+
+———————————————————————————————————————————————————————————————————————————————————————————————————————————
+
+
+Round 2 :
+1. https://www.geeksforgeeks.org/remove-minimum-elements-either-side-2min-max/
+2. Why is password in java stored as char[] rather than string
+3. Design the data structure for trade matching logic  how are you going to store buy and sell orders, such that if a person is selling at 100 then buy price of 100 or anything above it matches.

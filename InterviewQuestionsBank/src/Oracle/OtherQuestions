@@ -1,0 +1,97 @@
+Team 1
+
+Round: 1
+
+Problem 1
+    Consider numerical keypad as below
+   
+1	2	3
+4	5	6
+7	8	9
+*	0	#
+    Given number N print the count of distinct numbers of length N?
+    -Allowed moves are Up, Down, Left, Right, Press 
+    -Move to *  and # are not allowed
+    
+    Example
+    Input: N = 1
+    Output: 10
+    0, 1, 2, 3, 4, 5, 6, 7, 8 and 9 are the possible numbers.
+
+    Input: N = 2
+    Output: 36
+    All the possible numbers are 00, 08, 11, 12, 14, 21, 22, 23, 25, ..
+
+------------------------------
+Problem 2
+    
+Find a street to rent a house, which has a minimum of farthest distance to the given requirements.
+Assume all the streets are parallel.
+
+    Req: ["Groceries",	"School", "Hospital"]     
+    Example:         
+	Groceries	School	Hospital
+S1	T 		T
+S2	T 	T 	
+S3	T		
+S4		T	
+S5		T	T
+
+    Output: S4
+
+
+———————————————————————————————————————————————————————————————————————————————————————————————————————————
+
+
+Round 2
+1. How will you run a java application (javac and java commands)
+2. what does public static void main means
+3. what is System.out.printl
+4. Implement your own Queue from scratch and give enqueue/dequeue logic
+5. DB queries :
+ 		Employee : empName, empId, managerId, salary
+ 		Department : deptid, deptname
+    1. get all the employees whose salary is more than their manager’s salary
+    2. get the employee name and the dept name whose salary is highest in their respective department
+
+———————————————————————————————————————————————————————————————————————————————————————————————————————————
+
+
+Round 3
+1. Design a system where for every tick change on a security like tcs/reliance is shown to the end user (some thing like zerodha graph)
+2. Our team wants to know why suddenly there is a drop in our registration on app, how to get that (tracking the mouse click, focus, scroll or even capturing the failures on a specific text field)
+3. find loop in linkedlist. Insert a node at specific position in the list
+
+
+
+
+———————————————————————————————————————————————————————————————————————————————————————————————————————————
+———————————————————————————————————————————————————————————————————————————————————————————————————————————
+———————————————————————————————————————————————————————————————————————————————————————————————————————————
+———————————————————————————————————————————————————————————————————————————————————————————————————————————
+
+
+Team 2
+
+Round 1:
+1. https://www.geeksforgeeks.org/printing-frequency-of-each-character-just-after-its-consecutive-occurrences/
+2. https://www.geeksforgeeks.org/stock-buy-sell/
+3. Develop a service that takes a list of product information in a CSV and generates a catalog.
+4. Flatten a JSON object consisting of potentially multiple levels of nested objects, using a field renaming map.  
+       { "accounting" : [   
+	                     { "firstName" : "John",  
+	                       "lastName"  : "Doe",
+	                       "age"       : 23 },
+
+	                     { "firstName" : "Mary",  
+	                       "lastName"  : "Smith",
+	                        "age"      : 32 }
+        ]}
+
+———————————————————————————————————————————————————————————————————————————————————————————————————————————
+
+        
+Round 2 : 
+1. LRU cache design
+2. What changes will we make to use it in multithreaded env
+3. Design a payment gateway

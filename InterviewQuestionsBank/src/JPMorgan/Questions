@@ -1,0 +1,71 @@
+Round 1
+1. How do you handle corrupted msg in kafka.
+2. basic principles of OOPS - abstraction, encapsulation, inheritance, polymorphism
+3. How to create immutable class
+4. Interface vs Abstract class
+5. HashMap internal working
+6. Life cycle of Spring IOC
+7. How does dependency injection works
+
+
+———————————————————————————————————————————————————————————————————————————————————————————————————————————
+
+
+Round 2
+
+Implement the MessageFilter class’s isAccepted method, and if there are a list of such validation needs to be run, which design pattern will fit in place
+public class Message {
+
+  UUID messageId;
+
+  String category;
+
+  Merchant merchant;
+
+  public static class Merchant {
+
+    String merchantCode;
+
+    String merchantName;
+  }
+}
+
+// ask: implement a filter that has allowlist and denylist capabilities on category, merchantCode hierarchical
+
+// allowlist category: A,B,C allowed D, E denied
+// merchant code: X, Y, Z allowed U, J denied
+
+public class MessageFilter {
+    
+    
+
+  boolean isAccepted(Message message) {
+      
+    boolean result;
+
+    if(message == null){
+        throw new IllegalArgumentException("Message is null");
+    }
+    
+    if(denied.contains(message.category))
+        return false;
+    else if (allowedList.contains(message.category))
+       return true;
+    else {
+        
+        if( message.getMerchant == null){
+             return result;
+        }
+       
+        if(deniedMerchantCodes.contains(message.getMerchant.getMerchantCode))
+                return false;
+        else if(allowedMerchantList.contains(message.getMerchant.getMerchantCode))
+                return true;
+         
+    }
+    
+    return result;
+  
+  }
+
+}

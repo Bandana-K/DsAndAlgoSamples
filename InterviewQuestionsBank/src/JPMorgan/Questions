@@ -71,6 +71,7 @@ public class MessageFilter {
 }
 
 ———————————————————————————————————————————————————————————————————————————————————————————————————————————
+Round 3
 
 1. Architecture of current project - is the msg read happening one by ine or batch based
 2. ConsumerGroup in kafka ?

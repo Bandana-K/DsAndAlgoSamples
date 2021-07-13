@@ -69,3 +69,17 @@ public class MessageFilter {
   }
 
 }
+
+———————————————————————————————————————————————————————————————————————————————————————————————————————————
+
+1. Architecture of current project - is the msg read happening one by ine or batch based
+2. ConsumerGroup in kafka ?
+3. Is it possible for a consumer to read a msg which a producer has written on kafka topic but nit yet received the ack for? - read_isolated/read_commited
+4. How are we doing transaction management in kafka from read to push data in db.
+5. Which version of Java ? What are features of Java 8 ?
+6. Executor framework ?  is the future.get synchronous or asynchronous call?? How to cancel a started task?
+7. If we have a List<Employee> employeelist and List<object> objectList, can we do objectList = employeeList?
+8. Get next big number which is palindrome for a given number, exmp : 23545 ans : 23632 : https://www.geeksforgeeks.org/given-a-number-find-next-smallest-palindrome-larger-than-this-number/
+9. Given a list of intervals, flatten them : https://www.geeksforgeeks.org/merging-intervals/#:~:text=Below%20are%20detailed%20steps.,merge%20it%20with%20previous%20interval.
+
+

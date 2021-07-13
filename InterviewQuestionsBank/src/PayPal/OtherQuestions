@@ -1,2 +1,7 @@
 1. 	Design a gaming interface, where computer has to guess a number out of your given range. 
 	For every guess, we can say, its lesser than, greater than or equal to. If equal to, game will terminate.
+
+	
+HackerRank questions:
+1. https://www.hackerearth.com/problem/algorithm/beautiful-numbers-05de0f51-101121ca/
+2. https://stackoverflow.com/questions/67417656/max-tasks-that-can-be-completed-in-given-time	

@@ -5,9 +5,7 @@ import java.util.*;
 
 /*
  * To execute Java, please define "static void main" on a class
- * named Solution.
- *
- * If you need more classes, simply define them inline.
+ * named Solution. If you need more classes, simply define them inline.
  
  abcgdblkogdop
   abcgd
@@ -15,12 +13,10 @@ import java.util.*;
   dblkog
   blkogd
  
- 
  abcdbncma
  abcd
  cdbn
  dbncma			ans 6
- 
  
  adcgddddddd 	ans 4
  

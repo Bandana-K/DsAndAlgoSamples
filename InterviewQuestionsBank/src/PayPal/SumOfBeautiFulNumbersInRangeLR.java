@@ -8,92 +8,70 @@ import java.util.Map;
 public class SumOfBeautiFulNumbersInRangeLR {
 	
 	static Map<Integer, Boolean> beautifullMap = new HashMap<>();
+//	static long[] sumOfBeautiFul = new long[1000005];
 	
     public static void main(String[] args) {
-    	//31, 32  	  	=> 63 		=> 63
-    	//8508, 10000 	=>1865855	=> 1865855
-    	//3, 2834		=> 596941   => 591386
-        int l = 19;
-        int r = 20;
-
+    	
+//    	preCompute();
+        int l = 1, r = 1000000;
         long result = solve(l, r);
         System.out.println(result);
     }
-    
-    static long solve(int l, int r){
-       
-    	poupulateBeautifullMap(l, r);
-    	
-    	int sum = 0;
-    	while(l<=r) {
-    		if(beautifullMap.get(l))
-    			sum = sum+l;
-    		l++;
-    	}
-    	
-    	return sum;
-    }
+	
+//    private static void preCompute() {
+//        for(int i = 1 ; i <= 1000000 ; i++){
+//            if(isBeautiful(i))
+//            {
+//            	sumOfBeautiFul[i] = i;
+//            }
+//        }
+//
+//        for(int i = 1 ; i <= 1000000 ; i++){
+//        	sumOfBeautiFul[i] += sumOfBeautiFul[i-1];
+//        }
+//	}
 
-	private static void poupulateBeautifullMap(int l, int r) {
-
-		for(int i = l ; i<=r; i++) {
-			if(isBeautiFullNumber(i))
-				beautifullMap.put(i, true);
-			else 
-				beautifullMap.put(i, false);	
-		}
-	}
-
-	private static boolean isBeautiFullNumber(int check) {
-		
-		if(beautifullMap.containsKey(check))
-			return beautifullMap.get(check);
-		
-		int digitSum = getDigitSquaresSum(check);
-		if(digitSum == 1 || digitSum == 7) {
-			beautifullMap.put(check, true);
-			return true;
-		} else	if(digitSum < 9) {
-			beautifullMap.put(check, false);
-			return false;
-		}
-		return isBeautiFullNumber(digitSum);
-
-	}
-
-	private static boolean isHappynumber(int n) {
-		
-        if (n == 1 || n == 7)
-            return true;
-        int sum = n, x = n;
- 
-        // this loop executes till the sum of square of
-        // digits obtained is not a single digit number
-        while(sum > 9) {
-            sum = 0;
- 
-            // this loop finds the sum of square of digits
-            while (x > 0) {
-                int d = x%10;
-                sum += d*d;
-                x/=10;
-            }
-            if (sum == 1)
-                return true;
-            x = sum;
-        }
-        if(sum == 7)
-            return true;
-        return false;
-    }
-    
-	private static int getDigitSquaresSum(int check) {
-		int sum = 0;
-		while(check > 0) {
-			int digit = check%10;
-			sum = sum + digit * digit;
-			check = check /10;
+	private static long solve(int l, int r) {
+		long sum = 0;
+		for (int i = l; i <= r; i++) {
+			if (beautifullMap.containsKey(i) && beautifullMap.get(i) == true) {
+				sum += i;
+			}
+			else if (!beautifullMap.containsKey(i) && isBeautiful(i))
+			{
+				sum += i;
+			}
 		}
 		return sum;
+//		return (sumOfBeautiFul[r] - sumOfBeautiFul[l-1]);
+	}
+
+	private static Boolean isBeautiful(int i) {
+
+		int cur = i;
+		if (beautifullMap.containsKey(i)) {
+			return beautifullMap.get(i);
+		}
+		
+		beautifullMap.put(i, false);
+		int temp = 0;
+		while (i > 0) {
+			int rem = i % 10;
+			temp += rem * rem;
+			i /= 10;
+		}
+		
+		if (temp == 1 || temp == 7) {
+			beautifullMap.put(cur, true);
+			return true;
+
+		} else if(temp < 9) {
+			beautifullMap.put(cur, false);
+			return false;
+		}
+		
+		Boolean flag = isBeautiful(temp);
+		beautifullMap.put(cur, flag);
+		return flag;
 	}
 }

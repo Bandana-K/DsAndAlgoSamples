@@ -10,4 +10,22 @@ which server in springboot? what are servlets
 How to store catalog information in DB, if they may be heriarchial or may not be
 If 100 customers are going to apply for 1 lac rs loan, hot to design the system, to allow concurrency and conistency
 Kafka topic - consumer group configuration to reduce the lags on topics
-design the code to print 1,A,#,2,B,$,3,C,%…. using 3 threads where first thread prints 1,2,3,4… second one prints A,B,C,D… and 3rd one prints special characters.s
+design the code to print 1,A,#,2,B,$,3,C,%…. using 3 threads where first thread prints 1,2,3,4… second one prints A,B,C,D… and 3rd one prints special characters.
+
+———————————————————————————————————————————————————————————————————————————————————————————————————————————
+
+Round 2:
+
+1. Current project architecture and is it okay to have single DB
+2. Product management service, wher we will have product, its images and then the ratings/reviews for these products. How will we store them in DB.
+	RDBMS for product, Amazon s3/CDN for the images with image urls stored in RDBMS, rating and reviews using NoSQL cassandra
+3. Provide a Search service where if a user types something a list of all such objects with images and aggregated ratings for them
+4. If we have to put a filter logic to show only the products with rating > 4
+5. If we want to have a system where there can be many microservices, where one service is doing some task and on the result of it another service has to take some action. 
+   How to design such system? - Kafka topics, even based systems - Each microService can be listening to different topics
+6. We have millions of user accounts where their account details are with us. We want to design a system where we need to make sure that we keep only active accounts with us. 
+	- Have a push system, but then the load will be with bank to notify our apps, which is not correct 
+	- Have a scheduled job to come up every day and validate the accounts - for this we can have DB sharded - each service replica handling only a shard, 
+	  To allocate which service handles which all shards, we can have a controller which generates the range and assigns. Also we need to have servcie discovery and health checks in place.
+	  So that when a service replica goes down controller can sassign that range to a different servcie.
+7. https://www.geeksforgeeks.org/sum-two-large-numbers/

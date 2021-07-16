@@ -18,6 +18,9 @@ Round 1:
 Round 2:
 1. How to implement idempotency in any request. 
    for exp : if we have an account, and a request to deduct 100 rs from it. How to ensure if we get duplicate requests, then its not executed 2 times.
+   Possible solutions suggested - 
+   1. As a part of request do pass the expected status on which the operation should be executed, if the current status doesn't match with the expected then don't execute it.
+   2. Mark each requestId with a timeStamp, before doing any operation check if the requestId and the timeStamp are same for both of the requests. If yes ignore the 2nd one.
 
 2. Given an input as below format convert it into the format as shown in output:
  	[1, 2, 3, [4, 5], [6, 7, [8, 9, [10, 11]]], 12] - input

@@ -1,4 +1,4 @@
-Round 1
+Round 1: (17th June 2021)
 1. How do you handle corrupted msg in kafka.
 2. basic principles of OOPS - abstraction, encapsulation, inheritance, polymorphism
 3. How to create immutable class
@@ -11,7 +11,7 @@ Round 1
 ———————————————————————————————————————————————————————————————————————————————————————————————————————————
 
 
-Round 2
+Round 2: (25th June 2021)
 
 Implement the MessageFilter class’s isAccepted method, and if there are a list of such validation needs to be run, which design pattern will fit in place
 public class Message {
@@ -71,7 +71,7 @@ public class MessageFilter {
 }
 
 ———————————————————————————————————————————————————————————————————————————————————————————————————————————
-Round 3
+Round 3: (13th July 2021)
 
 1. Architecture of current project - is the msg read happening one by ine or batch based
 2. ConsumerGroup in kafka ?
@@ -83,4 +83,6 @@ Round 3
 8. Get next big number which is palindrome for a given number, exmp : 23545 ans : 23632 : https://www.geeksforgeeks.org/given-a-number-find-next-smallest-palindrome-larger-than-this-number/
 9. Given a list of intervals, flatten them : https://www.geeksforgeeks.org/merging-intervals/#:~:text=Below%20are%20detailed%20steps.,merge%20it%20with%20previous%20interval.
 
+———————————————————————————————————————————————————————————————————————————————————————————————————————————
+Round 4: (19th July 2021)
 

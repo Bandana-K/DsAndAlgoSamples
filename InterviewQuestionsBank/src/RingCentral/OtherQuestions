@@ -1,4 +1,4 @@
-Round 1:
+Round 1: (30th June 2021)
 
 Loadbalancing types -> stickyBased, round robin, weighed
 What is the error handling logic -> number of retires, exponential retries
@@ -11,9 +11,10 @@ Various methods of Object class
 Equals and Hashcode contract
 Static methods
 
+———————————————————————————————————————————————————————————————————————————————————————————————————————————
 
 
-Round 2:
+Round 2: (2nd July 2021)
 ways of dividing a monolith project into microservices -> 1. feature based services 2. controller/processor/persistence based
 pros and Cons of both of these approaches
 What is Spring Container? Can we call it in our application

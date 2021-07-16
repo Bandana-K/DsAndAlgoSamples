@@ -1,6 +1,6 @@
 Team 1
 
-Round: 1
+Round 1: (1st June)
 
 Problem 1
     Consider numerical keypad as below
@@ -43,7 +43,7 @@ S5		T	T
 ———————————————————————————————————————————————————————————————————————————————————————————————————————————
 
 
-Round 2
+Round 2: (8th June 2021)
 1. How will you run a java application (javac and java commands)
 2. what does public static void main means
 3. what is System.out.printl
@@ -57,7 +57,7 @@ Round 2
 ———————————————————————————————————————————————————————————————————————————————————————————————————————————
 
 
-Round 3
+Round 3: (14th June 2021)
 1. Design a system where for every tick change on a security like tcs/reliance is shown to the end user (some thing like zerodha graph)
 2. Our team wants to know why suddenly there is a drop in our registration on app, how to get that (tracking the mouse click, focus, scroll or even capturing the failures on a specific text field)
 3. find loop in linkedlist. Insert a node at specific position in the list
@@ -73,7 +73,7 @@ Round 3
 
 Team 2
 
-Round 1:
+Round 1: (23rd June 2021)
 1. https://www.geeksforgeeks.org/printing-frequency-of-each-character-just-after-its-consecutive-occurrences/
 2. https://www.geeksforgeeks.org/stock-buy-sell/
 3. Develop a service that takes a list of product information in a CSV and generates a catalog.
@@ -91,7 +91,7 @@ Round 1:
 ———————————————————————————————————————————————————————————————————————————————————————————————————————————
 
         
-Round 2 : 
+Round 2 : (7th July 2021)
 1. LRU cache design
 2. What changes will we make to use it in multithreaded env
 3. Design a payment gateway

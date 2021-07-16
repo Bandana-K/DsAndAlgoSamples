@@ -1,4 +1,4 @@
-Round 1
+Round 1: (7th June 2021)
 
 Question 1
 Given a linked list, reverse the nodes of a linked list k at a time and return its modified list.
@@ -11,6 +11,7 @@ Words = [ab, cd , ef, abcd, abcdef, abef, efabcd]   , Ans  = {abcd, abcdef, a
 
 ———————————————————————————————————————————————————————————————————————————————————————————————————————————
 
-Round 2 
+Round 2: (14th June 2021)
+
 In depth design of your own project
 Google drive design and architecture

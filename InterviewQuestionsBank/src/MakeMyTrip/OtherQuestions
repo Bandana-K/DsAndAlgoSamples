@@ -4,7 +4,7 @@ Hacker rank coding round:
 
 ———————————————————————————————————————————————————————————————————————————————————————————————————————————
 
-Round 1
+Round 1 (24th June 2021)
 Spring vs SpringBoot
 which server in springboot? what are servlets
 How to store catalog information in DB, if they may be heriarchial or may not be
@@ -14,9 +14,9 @@ design the code to print 1,A,#,2,B,$,3,C,%…. using 3 threads where first threa
 
 ———————————————————————————————————————————————————————————————————————————————————————————————————————————
 
-Round 2:
+Round 2: (16th July 2021)
 
-1. Current project architecture and is it okay to have single DB
+1. Current project architecture and is it okay to have single DB? is it monoloith or microServcie based/How are you doing authentication across the service.
 2. Product management service, wher we will have product, its images and then the ratings/reviews for these products. How will we store them in DB.
 	RDBMS for product, Amazon s3/CDN for the images with image urls stored in RDBMS, rating and reviews using NoSQL cassandra
 3. Provide a Search service where if a user types something a list of all such objects with images and aggregated ratings for them

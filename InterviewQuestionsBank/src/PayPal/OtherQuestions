@@ -1,6 +1,38 @@
-1. 	Design a gaming interface, where computer has to guess a number out of your given range. 
+Round 1:
+
+1. Given an unindented xml, print the pretty format of it, example :	
+	input : <a><b><c></c></b></a>
+	output:
+<a>
+	<b>
+		<c>
+		</c>
+	</b>
+</a>
+
+2. 	Design a gaming interface, where computer has to guess a number out of your given range. 
 	For every guess, we can say, its lesser than, greater than or equal to. If equal to, game will terminate.
 
+————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————	
+	
+Round 2:
+1. How to implement idempotency in any request. 
+   for exp : if we have an account, and a request to deduct 100 rs from it. How to ensure if we get duplicate requests, then its not executed 2 times.
+
+2. Given an input as below format convert it into the format as shown in output:
+ 	[1, 2, 3, [4, 5], [6, 7, [8, 9, [10, 11]]], 12] - input
+	[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11] - output
+	
+	possible solutions - 
+	1. Treat it as a List of object and iterate over it to check if the current element is instance of integer, if not call recursive method
+	2. Treat it as a char array and ignore any brackets
+	3. Use stack or list to process any object, if object is integer proceed, else put it on stack and proceed with implementation using stack to replace recursion
+	
+3. Given a board game with : Robot, Board, Commands, CommandCenter, where a command can be forward, back, turn left, turn right, how to design it.
+   Also if we want to add any command in future to it, minimal code changes should be done.
+	
+	
+————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————	
 	
 HackerRank questions:
 1. https://www.hackerearth.com/problem/algorithm/beautiful-numbers-05de0f51-101121ca/

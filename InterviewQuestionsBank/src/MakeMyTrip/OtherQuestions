@@ -29,3 +29,5 @@ Round 2: (16th July 2021)
 	  To allocate which service handles which all shards, we can have a controller which generates the range and assigns. Also we need to have servcie discovery and health checks in place.
 	  So that when a service replica goes down controller can sassign that range to a different servcie.
 7. https://www.geeksforgeeks.org/sum-two-large-numbers/
+
+———————————————————————————————————————————————————————————————————————————————————————————————————————————

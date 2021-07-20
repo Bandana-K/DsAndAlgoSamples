@@ -1,0 +1,3 @@
+Round 3:
+Design a EmailSchedulerService, and add features to track the delivery receipts.
+In case someone replies to our mail, an automated mail should be sent to them.

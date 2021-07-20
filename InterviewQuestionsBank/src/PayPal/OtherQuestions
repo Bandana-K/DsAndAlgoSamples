@@ -37,6 +37,16 @@ Round 2: (16th July 2021)
 	
 ————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————	
 	
+Round 3: (20th July 2021)
+
+1. Design a Subscription model for magazine in our flipkart/amazon type service.
+2. APIgateWay vs loadbalancer
+3. Uses of service discovery
+4. Kafka vs MQ, when will u select one over other.
+
+————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————	
+
+
 HackerRank questions:
 1. https://www.hackerearth.com/problem/algorithm/beautiful-numbers-05de0f51-101121ca/
 2. https://stackoverflow.com/questions/67417656/max-tasks-that-can-be-completed-in-given-time	
